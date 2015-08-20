@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TRVTourCategoryView">
+            <connections>
+                <outlet property="categoryContentView" destination="Dk2-wI-RbG" id="8do-9a-vbv"/>
+                <outlet property="categoryImageView" destination="9oP-n6-DnE" id="6k4-om-j71"/>
+                <outlet property="categoryNameLabel" destination="khX-5L-kQT" id="o3C-5u-MKV"/>
+                <outlet property="iconImageView" destination="e29-dX-HUB" id="VQ5-yy-R50"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFit" id="Dk2-wI-RbG">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e29-dX-HUB" userLabel="Category Icon Image">
+                    <rect key="frame" x="75" y="75" width="50" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="e29-dX-HUB" secondAttribute="height" multiplier="1:1" id="nyC-RC-Rtu"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="khX-5L-kQT">
+                    <rect key="frame" x="47" y="139" width="106" height="35"/>
+                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="25"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9oP-n6-DnE" userLabel="Tour Category Image">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="khX-5L-kQT" firstAttribute="top" secondItem="e29-dX-HUB" secondAttribute="bottom" constant="14" id="8DA-ju-pPE"/>
+                <constraint firstItem="khX-5L-kQT" firstAttribute="bottom" secondItem="9oP-n6-DnE" secondAttribute="bottom" constant="-20" id="XTs-6p-M0h"/>
+                <constraint firstAttribute="centerX" secondItem="e29-dX-HUB" secondAttribute="centerX" id="cYp-9R-Ygu"/>
+                <constraint firstAttribute="centerY" secondItem="e29-dX-HUB" secondAttribute="centerY" id="dDq-FM-fBI"/>
+                <constraint firstItem="khX-5L-kQT" firstAttribute="top" secondItem="9oP-n6-DnE" secondAttribute="bottom" constant="-47" id="gEK-7f-cWJ"/>
+                <constraint firstItem="9oP-n6-DnE" firstAttribute="top" secondItem="Dk2-wI-RbG" secondAttribute="top" id="gdM-nk-tsB"/>
+                <constraint firstItem="9oP-n6-DnE" firstAttribute="leading" secondItem="Dk2-wI-RbG" secondAttribute="leading" id="iQi-2s-4yO"/>
+                <constraint firstAttribute="trailing" secondItem="9oP-n6-DnE" secondAttribute="trailing" id="oYy-bO-w5F"/>
+                <constraint firstAttribute="centerX" secondItem="khX-5L-kQT" secondAttribute="centerX" id="q8B-o8-V03"/>
+                <constraint firstAttribute="bottom" secondItem="9oP-n6-DnE" secondAttribute="bottom" id="tYY-sE-xHm"/>
+                <constraint firstItem="e29-dX-HUB" firstAttribute="width" secondItem="9oP-n6-DnE" secondAttribute="width" multiplier="1/4" id="yep-Ie-Hcv"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="XTs-6p-M0h"/>
+                    <exclude reference="gEK-7f-cWJ"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="329" y="336"/>
+        </view>
+    </objects>
+</document>

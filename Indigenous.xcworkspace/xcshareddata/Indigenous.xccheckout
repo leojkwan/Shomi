@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>278CE8D3-C1E8-4B50-94B1-5A5BEE663F05</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Indigenous</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DACFCA8BB65E7F041D07C465A82DF99EE3837718</key>
+		<string>https://github.com/learn-co-students/BadBoys3</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Indigenous/Indigenous.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DACFCA8BB65E7F041D07C465A82DF99EE3837718</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/learn-co-students/BadBoys3</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DACFCA8BB65E7F041D07C465A82DF99EE3837718</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DACFCA8BB65E7F041D07C465A82DF99EE3837718</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BadBoys3</string>
+		</dict>
+	</array>
+</dict>
+</plist>

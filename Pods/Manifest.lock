@@ -1,0 +1,118 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - APParallaxHeader (0.1.6)
+  - Bolts (1.2.0):
+    - Bolts/AppLinks (= 1.2.0)
+    - Bolts/Tasks (= 1.2.0)
+  - Bolts/AppLinks (1.2.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.2.0)
+  - CZPicker (0.3.5)
+  - FBSDKCoreKit (4.5.1):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc (= 4.5.1)
+    - FBSDKCoreKit/no-arc (= 4.5.1)
+  - FBSDKCoreKit/arc (4.5.1):
+    - Bolts (~> 1.1)
+  - FBSDKCoreKit/no-arc (4.5.1):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc
+  - FBSDKLoginKit (4.5.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.5.1):
+    - FBSDKCoreKit
+  - FoldingTabBar (1.0.1)
+  - GoogleMaps (1.10.1)
+  - HNKGooglePlacesAutocomplete (1.1.0):
+    - HNKGooglePlacesAutocomplete/Models (= 1.1.0)
+    - HNKServerFacade (~> 0.3)
+    - Mantle (~> 2.0)
+  - HNKGooglePlacesAutocomplete/Models (1.1.0):
+    - HNKGooglePlacesAutocomplete/Models/Networking (= 1.1.0)
+    - HNKServerFacade (~> 0.3)
+    - Mantle (~> 2.0)
+  - HNKGooglePlacesAutocomplete/Models/Networking (1.1.0):
+    - HNKServerFacade (~> 0.3)
+    - Mantle (~> 2.0)
+  - HNKServerFacade (0.3.0):
+    - AFNetworking (~> 2.5)
+  - INTULocationManager (4.0.0)
+  - LMGeocoder (1.0.3)
+  - Mantle (2.0.4):
+    - Mantle/extobjc (= 2.0.4)
+  - Mantle/extobjc (2.0.4)
+  - Masonry (0.6.2)
+  - MBProgressHUD (0.9.1)
+  - MPSkewed (0.9.0)
+  - Parse (1.8.0):
+    - Bolts/Tasks (>= 1.2.0)
+  - ParseUI (1.1.5):
+    - Bolts/Tasks (~> 1.2)
+    - Parse (~> 1.8)
+  - RMSaveButton (0.1.0)
+  - SCNumberKeyBoard (0.3.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - APParallaxHeader
+  - CZPicker
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - FoldingTabBar (~> 1.0.1)
+  - GoogleMaps
+  - HNKGooglePlacesAutocomplete (~> 1.1.0)
+  - INTULocationManager
+  - LMGeocoder (~> 1.0)
+  - Masonry
+  - MBProgressHUD (~> 0.9.1)
+  - MPSkewed
+  - Parse
+  - ParseUI (~> 1.1)
+  - RMSaveButton
+  - SCNumberKeyBoard
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  APParallaxHeader: 854bc48a2487ca12c702f8a236fec0d89cdac5c3
+  Bolts: d176cb1e0012175589e389a9db49b85e27787576
+  CZPicker: ce4f352d65ef5ccb8d7378afe3ee4e5bdbead15a
+  FBSDKCoreKit: f335eaf6865e1e1597dee1debfb533045500da47
+  FBSDKLoginKit: 225cc9a388a92916ee3f3bb14422017b6e44b65b
+  FBSDKShareKit: 642034ac9f30793dfd897851b724bb4281750266
+  FoldingTabBar: 3e04c49dbe2b02c529561a4182bf017b928d04d2
+  GoogleMaps: ebf08677f181d9c2dcdbd1721d206f02beccc9b1
+  HNKGooglePlacesAutocomplete: 0022f666d245c18fb8cd860e79712526d6f88267
+  HNKServerFacade: 0fa3839353480b8862563a34903ad1406a38b4c9
+  INTULocationManager: 754f2800415378b7bb2c07be103449e1f6a2cc70
+  LMGeocoder: 100572f9e572a26d3506ee0604d6629bea391767
+  Mantle: 6bee68168423948be0c0c5924832bf3af188e099
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MPSkewed: 53d2f5ae0ce57c2ee475107cfb8899426f0b68fa
+  Parse: 6ea05adb378fbfd6f8726ab67ef74330d96fc903
+  ParseUI: 2c53621ed028ee793f5ab92a551b099689265525
+  RMSaveButton: 0e3059ab2b7c06b362d9257876fec34f7fc12745
+  SCNumberKeyBoard: 71d27bababfb1229010f864f0d9d20e8936382dd
+
+COCOAPODS: 0.38.2

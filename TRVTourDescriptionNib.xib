@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TRVTourDescriptionNib">
+            <connections>
+                <outlet property="contentView" destination="pDr-ZQ-3X5" id="Bos-K7-s2A"/>
+                <outlet property="tourDescriptionLabel" destination="tyr-FB-1Zx" id="ApJ-Bf-ghM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="pDr-ZQ-3X5">
+            <rect key="frame" x="0.0" y="0.0" width="456" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyr-FB-1Zx">
+                    <rect key="frame" x="20" y="59" width="406" height="221"/>
+                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="About Tour" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qvb-gL-Wb2">
+                    <rect key="frame" x="20" y="15" width="108" height="29"/>
+                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="21"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.93333333333333335" green="0.92156862745098034" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="tyr-FB-1Zx" secondAttribute="trailing" constant="30" id="0Kh-kM-pPM"/>
+                <constraint firstItem="qvb-gL-Wb2" firstAttribute="leading" secondItem="pDr-ZQ-3X5" secondAttribute="leading" constant="20" id="23V-xJ-7RO"/>
+                <constraint firstAttribute="bottom" secondItem="tyr-FB-1Zx" secondAttribute="bottom" constant="20" id="2HB-Mj-fgU"/>
+                <constraint firstItem="qvb-gL-Wb2" firstAttribute="top" secondItem="pDr-ZQ-3X5" secondAttribute="top" constant="15" id="DAh-Uc-YeD"/>
+                <constraint firstItem="tyr-FB-1Zx" firstAttribute="leading" secondItem="qvb-gL-Wb2" secondAttribute="leading" id="VTN-xK-BG3"/>
+                <constraint firstItem="tyr-FB-1Zx" firstAttribute="top" secondItem="qvb-gL-Wb2" secondAttribute="bottom" constant="15" id="tNf-5P-FWc"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tyr-FB-1Zx" secondAttribute="trailing" constant="464" id="wqA-8B-Lc3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="wqA-8B-Lc3"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="221" y="73"/>
+        </view>
+    </objects>
+</document>
