@@ -288,12 +288,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Complete Profile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JeX-0Y-rCh">
-                                <rect key="frame" x="236" y="83" width="128" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="A little bit about you..." translatesAutoresizingMaskIntoConstraints="NO" id="LAi-7h-M7j">
                                 <rect key="frame" x="172" y="207" width="240" height="128"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -345,6 +339,12 @@
                                     <action selector="segmentSelected:" destination="V4x-8x-2ZQ" eventType="valueChanged" id="C5v-IR-8id"/>
                                 </connections>
                             </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Complete Profile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JeX-0Y-rCh">
+                                <rect key="frame" x="215.5" y="83" width="169" height="30.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -356,6 +356,7 @@
                             <constraint firstAttribute="centerX" secondItem="Cu4-nE-RCN" secondAttribute="centerX" constant="-0.5" id="V0c-YW-QZd"/>
                             <constraint firstAttribute="centerX" secondItem="IYc-aB-PfB" secondAttribute="centerX" id="Vzd-sX-siH"/>
                             <constraint firstAttribute="centerX" secondItem="T2U-TX-lJO" secondAttribute="centerX" constant="7.5" id="YbU-Oo-A1E"/>
+                            <constraint firstItem="JeX-0Y-rCh" firstAttribute="top" secondItem="qek-RZ-Jef" secondAttribute="bottom" constant="19" id="tus-yq-avD"/>
                             <constraint firstAttribute="centerX" secondItem="TJg-GR-cOh" secondAttribute="centerX" constant="7.5" id="xrp-mD-dS0"/>
                         </constraints>
                     </view>
@@ -370,7 +371,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vmM-Pf-yUf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2704" y="-433"/>
+            <point key="canvasLocation" x="2819" y="-434"/>
         </scene>
         <!--Signup With Email View Controller-->
         <scene sceneID="art-tB-423">
