@@ -32,7 +32,7 @@
 //    UITabBarItem *makeToursTab = [[UITabBarItem alloc] initWithTitle:@"Create Trip" image:[UIImage imageNamed:@"timeline"] selectedImage:[UIImage imageNamed:@"timeline"]];
     UITabBarItem *profileTab = [[UITabBarItem alloc] initWithTitle:@"Profile" image:[UIImage imageNamed:@"profileTab"] selectedImage:[UIImage imageNamed:@"profileTab"]];
 
-    
+        
     UIViewController *firstVC = self.viewControllers[0];
    // UIViewController *secondVC = self.viewControllers[1];
     UIViewController *thirdVC = self.viewControllers[1];
@@ -41,7 +41,7 @@
     thirdVC.tabBarItem = profileTab;
 
 //    [NSMutableArray createParseDummyTour];
-//    [NSMutableArray createParseDummyTour2];
+    [NSMutableArray createParseDummyTour2];
 //    [NSMutableArray createParseDummyTour3];
 
     
