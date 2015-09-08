@@ -41,7 +41,6 @@
 		45F925A91B712400009B2E98 /* TRVSubCategoryCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F925A81B712400009B2E98 /* TRVSubCategoryCollectionView.m */; };
 		45F925AC1B712431009B2E98 /* TRVSubCategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F925AB1B712431009B2E98 /* TRVSubCategoryCollectionViewCell.m */; };
 		942424891B6DBAAF007BC642 /* TRVRootTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942424881B6DBAAF007BC642 /* TRVRootTabViewController.m */; };
-		94258ACD1B73F251006F24A8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94258ACC1B73F251006F24A8 /* Default-568h@2x.png */; };
 		9425FA871B72565500689011 /* TRVDetailGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9425FA861B72565500689011 /* TRVDetailGuideViewController.m */; };
 		942C18EE1B6BDD9300E1AC91 /* SearchTrips.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942C18ED1B6BDD9300E1AC91 /* SearchTrips.storyboard */; };
 		942C18F41B6C016800E1AC91 /* TRVAFNetwokingAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 942C18F31B6C016800E1AC91 /* TRVAFNetwokingAPIClient.m */; };
@@ -178,7 +177,6 @@
 		45F925AB1B712431009B2E98 /* TRVSubCategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRVSubCategoryCollectionViewCell.m; sourceTree = "<group>"; };
 		942424871B6DBAAF007BC642 /* TRVRootTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRVRootTabViewController.h; sourceTree = "<group>"; };
 		942424881B6DBAAF007BC642 /* TRVRootTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRVRootTabViewController.m; sourceTree = "<group>"; };
-		94258ACC1B73F251006F24A8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		9425FA851B72565500689011 /* TRVDetailGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRVDetailGuideViewController.h; sourceTree = "<group>"; };
 		9425FA861B72565500689011 /* TRVDetailGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRVDetailGuideViewController.m; sourceTree = "<group>"; };
 		942C18ED1B6BDD9300E1AC91 /* SearchTrips.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchTrips.storyboard; sourceTree = "<group>"; };
@@ -373,7 +371,6 @@
 				94E511041B82828600EF800C /* UIImageView+ExtraMethods.h */,
 				94E511051B82828600EF800C /* UIImageView+ExtraMethods.m */,
 				9450B33D1B7D6FBC009CE9FA /* TRVBookTourTableViewController.m */,
-				94258ACC1B73F251006F24A8 /* Default-568h@2x.png */,
 				94EB295B1B7845B400CAB1A5 /* Views */,
 				944AD0001B6DDEDB00404EDD /* API Clients */,
 				944D312D1B76E126004CF255 /* Categories */,
@@ -825,7 +822,6 @@
 				94E9D05C1B6EB102007B42B7 /* TRVGuideDetailProfileView.xib in Resources */,
 				948A22651B73A00D006FC5BB /* TRVUserAboutMeView.xib in Resources */,
 				94E7B1E01B7A3B28001AB1EE /* bookTour.storyboard in Resources */,
-				94258ACD1B73F251006F24A8 /* Default-568h@2x.png in Resources */,
 				94C36DA31B7E4DE300E0CA1E /* TRVMyToursView.xib in Resources */,
 				942C18EE1B6BDD9300E1AC91 /* SearchTrips.storyboard in Resources */,
 				451565241B68221B005A2871 /* LaunchScreen.xib in Resources */,
